@@ -1,7 +1,6 @@
 
 def hopper
-	programmer_hash =
- 		{
+	programmer_hash = {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         }
@@ -10,7 +9,13 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	{alan_kay => "Object Orientation"}
+	programmer_hash = {
+	:alan_kay => {
+           :known_for => "Object Orientation",
+           :languages => ["Smalltalk", "LISP"]
+				 }
+			 }
+			 programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
