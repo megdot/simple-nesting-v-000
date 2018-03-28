@@ -26,7 +26,7 @@ def alan_kay_is_known_for
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => {"C"}
+          :languages => "C"
         }
      }
 end
@@ -44,7 +44,7 @@ def dennis_ritchies_language
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => {"C"}
+          :languages => "C"
         }
      }
 end
